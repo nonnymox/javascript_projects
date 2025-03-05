@@ -1,2 +1,2 @@
-# javscript_projects
+# javascript_projects
 Vanilla Javascript Projects 
