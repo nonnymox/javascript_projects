@@ -20,3 +20,11 @@ function test() {
     console.log("b is " + b);
 }
 
+
+
+// console.log("Hello " + userName)
+
+var userName = prompt("What is your name?")
+const nameLength = userName.length
+const charLeft = 280 - nameLength 
+alert("You have typed " + nameLength + " characters and  have " + charLeft + " characters left.")
