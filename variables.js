@@ -39,3 +39,41 @@ var userName = prompt("What is your name?")
 // new_name = userName[0].toUpperCase() + userName.slice(1); //Using indexing to target the first letter of name
 var new_name = userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase(); /// Using the char at method to target the first letter
 alert("Hello "+ new_name);
+
+var dogAge = prompt("What is your dog's age?")
+
+humanAge = (dogAge -2 ) * 4 + 21
+
+alert(humanAge)
+
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    var maxAge = 90;
+    var yearsLeft = 90 - age;
+    console.log("You have " + (365 * yearsLeft) + " days, " + (52 * yearsLeft) + " weeks, and " + (12* yearsLeft) + " months left.")
+    
+    
+    
+    
+/*************Don't change the code below**********/
+}
+
+
+function lifeInWeeks(age) {
+    
+    /************Don't change the code above************/    
+        
+        //Write your code here.
+        var maxAge = 90;
+        var yearsLeft = 90 - age;
+        console.log("You have " + (365 * yearsLeft) + " days, " + (52 * yearsLeft) + " weeks, and " + (12* yearsLeft) + " months left.")
+        
+        
+        
+        
+    /*************Don't change the code below**********/
+    }
+    
