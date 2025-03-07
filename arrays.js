@@ -54,4 +54,22 @@ function bottles() {
   }
 }
 
-bottles()
+bottles();
+
+function fibonacciGenerator(n) {
+  //Do NOT change any of the code above 👆
+
+  //Write your code here:
+  var myArray = [0, 1];
+  for (var count = n; n > 0; n--) {
+    var nextNumber = myArray[myArray.length - 1] + myArray[myArray.length - 2];
+    myArray.push(nextNumber);
+  }
+  return myArray.slice(0, count);
+
+  //Return an array of fibonacci numbers starting from 0.
+
+  //Do NOT change any of the code below 👇
+}
+
+console.log(fibonacciGenerator(12));
