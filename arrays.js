@@ -38,16 +38,20 @@ while (i <= 100) {
 console.log(output);
 
 // 99 bottles of beer on the wall function
-var i = 1;
-while (i < 100 && i >= 0) {
-  if (i === 0) {
-    console.log(
-      `No more bottles of beer on the wall,No more bottles of beer.\nGo to the store and buy some more, ${i} bottles of beer on the wall.`
-    );
-  } else {
-    console.log(
-      `${i} bottles of beer on the wall,${i} bottles of beer.\nTake one down and pass it around, ${i} bottles of beer on the wall.`
-    );
+function bottles() {
+  var i = 99;
+  while (i < 100 && i >= 0) {
+    if (i === 0) {
+      console.log(
+        `No more bottles of beer on the wall,No more bottles of beer.\nGo to the store and buy some more, ${i} bottles of beer on the wall.`
+      );
+    } else {
+      console.log(
+        `${i} bottles of beer on the wall,${i} bottles of beer.\nTake one down and pass it around, ${i} bottles of beer on the wall.`
+      );
+    }
+    i--;
   }
-  i--;
 }
+
+bottles()
