@@ -12,5 +12,7 @@ for (let i = 0; i < buttons.length; i++) {
   button.addEventListener("click", function () {
     let key = button.innerText;
     alert(`${key} was clicked`);
+    var audio = new Audio("crash.mp3");
   });
 }
+
